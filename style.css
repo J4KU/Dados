@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+.container1{
+    margin-left: 10%;
+    margin-top: 5%;
+    border-style: dashed;
+    border-color: brown;
+    height: 800px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.dado1{
+    background-color: rgb(163, 0, 0);
+    width: 150px;
+    height: 150px;
+    margin: 75px 75px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.point1{
+    background-color: aliceblue;
+    height: 15%;
+    width: 15%;
+    border-radius: 100%;
+    margin-top: 45%;
+    margin-left: 45%;
+}
+
+.dado2{
+    background-color: rgb(163, 0, 0);
+    width: 150px;
+    height: 150px;
+    margin: 75px 75px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.point2{
+    background-color: aliceblue;
+    height: 15%;
+    width: 15%;
+    border-radius: 100%;
+    margin-top: 75%;
+    margin-left: 10%;
+    
+}
+
+.point3{
+    background-color: aliceblue;
+    height: 15%;
+    width: 15%;
+    border-radius: 100%;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
+.dado3{
+        background-color: rgb(163, 0, 0);
+        width: 150px;
+        height: 150px;
+        margin: 75px 75px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+
+}
+
+.point4{
+    background-color: aliceblue;
+    height: 15%;
+    width: 15%;
+    border-radius: 100%;
+    margin-top: 75%;
+    margin-left: 10%;
+
+       
+}
+
+.point5{
+    background-color: aliceblue;
+    height: 15%;
+    width: 15%;
+    border-radius: 100%;
+    margin-top: 40%;
+    margin-left: -0%;
+   
+}
+.point6{
+    background-color: aliceblue;
+    height: 15%;
+    width: 15%;
+    border-radius: 100%;
+    margin-top: 10%;
+    margin-right: 10%;
+   
+}
+
+.dado4{
+    background-color: rgb(163, 0, 0);
+    width: 150px;
+    height: 150px;
+    margin: 75px 75px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+     
+   
+
+}
+
+
+.point7{align-self: flex-start; justify-self: flex-start;} 
+.point8{align-self: flex-end; justify-self: flex-start;}
+.point9{align-self: flex-start;justify-self:flex-end;}
+.point10{align-self: flex-end; justify-self: flex-end;}
+
+
+.display1{
+    background-color: aliceblue;
+    height: 15%;
+    width: 15%;
+    border-radius: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15%;
+    margin-bottom: 20%;
+}
+
+.dado5{
+    background-color: rgb(163, 0, 0);
+    width: 150px;
+    height: 150px;
+    margin: 75px 75px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+    place-items: center;
+ 
+}
+
+.D{
+    background-color: aliceblue;
+    height: 50%;
+    width:50%;
+    border-radius: 100%;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+.point11{grid-column-start: 1; grid-row-start: 1; ; }
+.point12{grid-column-start: 3; }
+.point13{grid-column-start: 1; grid-row-start: 3;}
+.point14{grid-column-start: 3;grid-row-start: 3;}
+.point15{grid-column-start: 2;grid-row-start: 2;}
+
+
+
+.dado6{
+    background-color: rgb(163, 0, 0);
+    width: 150px;
+    height: 150px;
+    margin: 75px 75px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+
+}
+
+.point16{align-self: flex-start; justify-self: flex-start;} 
+.point17{align-self: flex-end; justify-self: flex-start;}
+.point18{align-self: flex-start;justify-self:flex-end;}
+.point19{align-self: flex-end; justify-self: flex-end;}
+.point20{align-self: flex-end; justify-self: flex-end;}
+.point21{align-self: flex-end; justify-self: flex-end;}
+
+.display3{
+    background-color: aliceblue;
+    height: 15%;
+    width: 15%;
+    border-radius: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+
+
+
+
+
+
+
+
+
